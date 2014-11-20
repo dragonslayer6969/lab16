@@ -105,8 +105,8 @@ class myApp(object):
         global drawpad
         global player
         x1, y1, x2, y2 = drawpad.coords(enemy)
-        if (rx1 > x1 and rx2 < x2) and (ry1 > y1 and ry2 < y2):
-           drawpad.
+        #if (rx1 > x1 and rx2 < x2) and (ry1 > y1 and ry2 < y2):
+           #drawpad.
         
 app = myApp(root)
 root.mainloop()
